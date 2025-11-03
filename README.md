@@ -7,19 +7,19 @@
 <style>
     /*Ira ser o seletor por tag*/
     body{
-        background color: #1d63c4;
+        background-color: #1d63c4;
         front-family:Arial, sans-serif;
     }
 
     /*seleção por Id*/
     .destaque{
-        color:darkblue;
+        color: darkblue;
         text-align:center;
     }
 
     /*seletor por classe*/
     .destaque{
-        color:#1d63c4;
+        color:#4169E1;
         front-weight: bold;
     }
 
@@ -42,6 +42,16 @@
 
 <p>Meu nome é <span class: destaque>João Vitor</span> e gosto de tecnologias diversas, seja elas atuais ou prototipos futuros</p>
 
+<h2>Minhas metas de vida</h2>
+<ul>
+  <div>
+  <li>Ingressar mo ramo de TI</li>
+  <li>Trablhar com frontend com hmtl</li>
+  <lI>Melhorar nos instrumentos</lI>
+  <li>Ter uma moto</li>
+  </div>
+</ul>
+
 <h2>Meus Hobbies</h2>
 <ul>
 <div>
@@ -52,5 +62,10 @@
 <li>Tocar Violino e Violão</li>
 </ul>
 </div>
+
+<div id="rodape">
+  @Machado_de_AssisII
+</div>
+
 </body>
 </html>
