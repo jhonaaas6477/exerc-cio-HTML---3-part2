@@ -7,7 +7,7 @@
 <style>
     /*Ira ser o seletor por tag*/
     body{
-        background-color: #1d63c4;
+        background-color: #A1615A;
         front-family:Arial, sans-serif;
     }
 
@@ -17,7 +17,6 @@
         text-align:center;
     }
 
-    /*seletor por classe*/
     .destaque{
         color:#4169E1;
         front-weight: bold;
@@ -30,7 +29,14 @@
 
     /* =Seletor descendente*/
     div il li{
-        color: #555
+        color: #110A09
+    }
+
+    footer {
+      text-align: left;
+      padding: 10px;
+      background-color: #A1615A;
+      color: black;
     }
     
 </style>
@@ -63,9 +69,9 @@
 </ul>
 </div>
 
-<div id="rodape">
-  @Machado_de_AssisII
-</div>
+<footer>
+  <p> Machado de Assis II</p>
+</footer>
 
 </body>
 </html>
